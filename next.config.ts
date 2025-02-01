@@ -17,13 +17,12 @@ const nextConfig: NextConfig = {
         port: '',
       },
     ],
-    //@ts-ignore
-    typescript: {
-      ignoreBuildErrors: true,
-    },
-    eslint: {
-      ignoreDuringBuild: true,
-    },
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true, // ✅ Fixed spelling
   },
 };
 
