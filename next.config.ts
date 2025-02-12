@@ -22,7 +22,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   eslint: {
-    ignoreDuringBuilds: true, // ✅ Fixed spelling
+    ignoreDuringBuilds: true,
   },
 };
 
